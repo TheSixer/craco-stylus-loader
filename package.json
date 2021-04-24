@@ -1,6 +1,6 @@
 {
   "name": "craco-stylus-loader",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "craco-stylus-loader allows to use stylus with create-react-app and Craco",
   "main": "dist/index.js",
   "scripts": {
@@ -10,14 +10,31 @@
   "author": "TheSixer",
   "license": "ISC",
   "dependencies": {
+    "less": "^3.11.1",
+    "less-loader": "^6.1.0",
     "@types/node": "^13.7.4",
     "@types/webpack": "^4.41.6"
   },
   "devDependencies": {
+    "@craco/craco": "^5.6.4",
     "typescript": "^3.7.5"
+  },
+  "peerDependencies": {
+    "@craco/craco": "^5.5.0",
+    "react-scripts": "^3.3.0 || ^4.0.0"
   },
   "repository": {
     "type": "git",
     "url": "git@github.com:TheSixer/craco-stylus-loader.git"
+  },
+  "keywords": [
+    "craco",
+    "create-react-app"
+  ],
+  "bugs": {
+    "url": "https://github.com/TheSixer/craco-stylus-loader/issues"
+  },
+  "resolutions": {
+    "react-scripts/webpack-dev-server": ">=3.11.0"
   }
 }
