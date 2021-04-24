@@ -2,7 +2,7 @@
 
 Stylus plugin for [Craco](https://www.npmjs.com/package/@craco/craco). 
 
-Allows using Stylus `.styl` files in create-react-app 4.x and also works with TypeScript.
+Allows using Stylus `.styl` files in create-react-app 4.x and also works with the [`craco-antd`](https://github.com/DocSpring/craco-antd) plugin.
 
 - CSS Module imports: `import styles from "./App.module.styl";`
 - Global imports: `import "./App.module.styl";`
